@@ -15,16 +15,16 @@ BuildRequires:	ncurses-ext-devel >= 5.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Visual Binary Diff (VBinDiff) displays files in hexadecimal and ASCII (or
-EBCDIC). It can also display two files at once, and highlight the
-differences between them. Unlike diff, it works well with large files (up
-to 4 GB).
+Visual Binary Diff (VBinDiff) displays files in hexadecimal and ASCII
+(or EBCDIC). It can also display two files at once, and highlight the
+differences between them. Unlike diff, it works well with large files
+(up to 4 GB).
 
 %description -l pl.UTF-8
-Visual Binary Diff (VBinDiff) wyświetla pliki w postaci szestnaskowej lub
-ASCII/EBCDIC. Może również wyświetlać dwa pliki jednocześnie podświetlając
-różnice pomiędzy nimi. W przeciwieństwie do diffa, radzi sobie dobrze z
-dużymi plikami (do 4 GB).
+Visual Binary Diff (VBinDiff) wyświetla pliki w postaci szestnaskowej
+lub ASCII/EBCDIC. Może również wyświetlać dwa pliki jednocześnie
+podświetlając różnice pomiędzy nimi. W przeciwieństwie do diffa, radzi
+sobie dobrze z dużymi plikami (do 4 GB).
 
 %prep
 %setup -q -n %{name}-%{version}_beta1
