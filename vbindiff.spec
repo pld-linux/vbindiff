@@ -1,13 +1,14 @@
+%define		pre	beta2
 Summary:	diff with editing capabilities for binary files
 Summary(pl.UTF-8):	Odpowiednik diffa dla plików binarnych z możliwością edycji
 Name:		vbindiff
 Version:	3.0
-Release:	0.beta1
+Release:	0.%{pre}.1
 License:	GPL v2
 Group:		Applications/Editors
-Source0:	http://home.comcast.net/~chris-madsen/vbindiff/%{name}-%{version}_beta1.tar.gz
-# Source0-md5:	a003ab76c596f47ea14d9e8ec82e5ad9
-URL:		http://home.comcast.net/~chris-madsen/vbindiff/
+Source0:	http://www.cjmweb.net/vbindiff/%{name}-%{version}_%{pre}.tar.gz
+# Source0-md5:	6245d1098eb6d0b6d2146f99a2df32c9
+URL:		http://www.cjmweb.net/vbindiff/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libstdc++-devel
@@ -27,7 +28,7 @@ podświetlając różnice pomiędzy nimi. W przeciwieństwie do diffa, radzi
 sobie dobrze z dużymi plikami (do 4 GB).
 
 %prep
-%setup -q -n %{name}-%{version}_beta1
+%setup -q -n %{name}-%{version}_%{pre}
 
 %build
 CXXFLAGS="%{rpmcflags} -I/usr/include/ncurses"
