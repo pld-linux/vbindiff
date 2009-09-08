@@ -1,13 +1,13 @@
-%define		pre	beta2
+%define		pre	beta4
 Summary:	diff with editing capabilities for binary files
 Summary(pl.UTF-8):	Odpowiednik diffa dla plików binarnych z możliwością edycji
 Name:		vbindiff
 Version:	3.0
-Release:	0.%{pre}.1
+Release:	0.%{pre}.4
 License:	GPL v2
 Group:		Applications/Editors
 Source0:	http://www.cjmweb.net/vbindiff/%{name}-%{version}_%{pre}.tar.gz
-# Source0-md5:	6245d1098eb6d0b6d2146f99a2df32c9
+# Source0-md5:	dbda80ef580e1a0975ef50b9aaa5210e
 URL:		http://www.cjmweb.net/vbindiff/
 BuildRequires:	autoconf
 BuildRequires:	automake
