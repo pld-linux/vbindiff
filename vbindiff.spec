@@ -34,6 +34,7 @@ sobie dobrze z dużymi plikami (do 4 GB).
 CXXFLAGS="%{rpmcflags} -I/usr/include/ncurses"
 %{__aclocal}
 %{__autoconf}
+%{__automake}
 %configure
 %{__make}
 
