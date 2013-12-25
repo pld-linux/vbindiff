@@ -3,7 +3,7 @@ Summary:	diff with editing capabilities for binary files
 Summary(pl.UTF-8):	Odpowiednik diffa dla plików binarnych z możliwością edycji
 Name:		vbindiff
 Version:	3.0
-Release:	0.%{pre}.1
+Release:	0.%{pre}.2
 License:	GPL v2+
 Group:		Applications/Editors
 Source0:	http://www.cjmweb.net/vbindiff/%{name}-%{version}_%{pre}.tar.gz
@@ -49,6 +49,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_bindir}/*
+%attr(755,root,root) %{_bindir}/%{name}
 %doc AUTHORS NEWS README
-%{_mandir}/man1/*
+%{_mandir}/man1/%{name}.1*
